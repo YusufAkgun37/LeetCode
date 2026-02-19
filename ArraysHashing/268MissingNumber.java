@@ -1,5 +1,3 @@
-package Xor;
-
 class Solution {
     public int missingNumber(int[] nums) {
         int xor = nums.length;
