@@ -8,9 +8,9 @@ class Solution {
         
         for (char c : s.toCharArray()) {
             if (!stack.isEmpty() && stack.peek() == c) {
-                stack.pop();        // Eşleşti → ikisini de sil
+                stack.pop();        
             } else {
-                stack.push(c);      // Eşleşmedi → stack'e ekle
+                stack.push(c);      
             }
         }
         
